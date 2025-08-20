@@ -1,4 +1,4 @@
-/* ========== Home (Bio/Cover Letter) ========== */
+
 .Mother{
   display: grid; gap: var(--space);
   grid-template-columns: 1.2fr .8fr;
@@ -20,4 +20,5 @@
 
 @headshot (max-width: 900px){
   .brand{ grid-template-columns: 1fr; }
+
 }
